@@ -8,7 +8,7 @@ body{
 
 header{
 	height:50px;
-	background-color:green;
+	background: linear-gradient(to right, white,green );
 }
 
 .header-logo{
@@ -44,11 +44,9 @@ header{
 
 /*		↑までヘッダー部分 				*/
 
-.loginForm{
-	text-align:center;
-}
 
 .plink{
+	padding-top:30px;
 	width:40%;
 	text-align:center;
 	margin:auto;

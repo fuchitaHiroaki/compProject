@@ -8,7 +8,7 @@ body{
 
 header{
 	height:50px;
-	background-color:green;
+	background: linear-gradient(to right, white,green );
 }
 
 .header-logo{
