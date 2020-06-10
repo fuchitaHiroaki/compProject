@@ -42,19 +42,16 @@ header{
 	float:right;
 }
 
-/*		↑までヘッダー部分 				*/
+/*↑までヘッダー部分 */
 
-.loginForm{
-	text-align:center;
-}
-
-.plink{
-	width:40%;
-	text-align:center;
+.changeButton{
+	padding-top:20px;
+	padding-bottom:40px;
+	width:70%;
 	margin:auto;
 }
 
-.linkpage{
-	border:solid 1px green;
+.roster{
+	width:70%;
+	margin:auto;
 }
-
