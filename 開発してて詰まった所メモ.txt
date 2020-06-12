@@ -1,0 +1,19 @@
+2020/6/12
+既に作成していたhtmlの画面をjspに変えEclipseで使おうとしたところ、
+htmlでは問題なかった↓のようなCSSの参照がうまくいかなかった。
+<link rel="stylesheet" type="text/css" href="/schoolProject/css/style_login.css">
+
+その為、とりあえず上手くいった方法として
+jspタグのincludeでcssを取り入れる方法があった
+
+<%@include file="../css/style_login.css" %>
+
+ただしこれだと従来のCSSはいきなり
+
+body{
+   background-color:red;
+}
+
+のように書かれているため、ページ上にそのまま文章が出てしまいCSSとして適用されないので、
+<style>タグで囲ったらうまくいった
+
