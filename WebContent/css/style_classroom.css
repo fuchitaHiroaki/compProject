@@ -1,0 +1,21 @@
+<style>
+
+button{
+	position:relative;left:96%;
+	text-align:right;
+}
+
+.classroom-title{
+	text-align:center;
+}
+
+.classroom-list{
+	width:70%;
+	margin:auto;
+}
+
+table{
+	width:100%;
+}
+
+</style>
